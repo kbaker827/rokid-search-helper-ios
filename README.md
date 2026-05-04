@@ -47,7 +47,7 @@ Converted from the [Android original](https://github.com/zxy7906052/RokidSearchH
 
 ## Xcode Setup
 
-1. Open `RokidSearchHelper.xcodeproj` in Xcode 15+
+1. Open `RokidSearchHelper.xcworkspace` in Xcode 15+ (after running `pod install`) 15+
 2. Select your Team under **Signing & Capabilities**
 3. Build & run on iPhone (iOS 16+)
 
@@ -68,7 +68,7 @@ Query
   └─ "No answer found" error state
 ```
 
-## TCP broadcast format
+## Data sent to the glasses
 
 ```json
 { "type": "search_result", "query": "...", "answer": "...", "source": "..." }
